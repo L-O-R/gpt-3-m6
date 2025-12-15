@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import Home from "./pages/Home";
+import MainHeader from "./components/mainHeader/MainHeader";
+import MainFooter from "./components/mainFooter/MainFooter";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="App">
+      <MainHeader />
+      <main>
+        <Home />
+      </main>
+      <MainFooter />
+    </div>
+  );
+};
 
-export default App
+export default App;
