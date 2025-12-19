@@ -1,7 +1,7 @@
 import "./Client.css";
 import client1 from "../../assets/clients/google.png";
 import client2 from "../../assets/clients/slack.png";
-import client3 from "../../assets/clients/bitmap.png";
+import client3 from "../../assets/clients/Bitmap.png";
 import client4 from "../../assets/clients/dropbox.png";
 import client5 from "../../assets/clients/shopify.png";
 const Client = () => {
