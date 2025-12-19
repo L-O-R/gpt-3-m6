@@ -1,0 +1,21 @@
+.client_section {
+    margin: 120px auto;
+}
+
+.client_section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.client_section div>img {
+    max-width: 120px;
+    height: 24px;
+    object-fit: contain;
+}
+
+
+.client_section div>img:nth-of-type(3) {
+    margin-top: -8px;
+}

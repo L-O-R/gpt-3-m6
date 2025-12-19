@@ -46,3 +46,41 @@
     width: 100%;
     height: 100%;
 }
+
+
+.banner_section__left .banner__footer_section {
+    margin-top: 3em;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+
+
+
+
+.banner_section .banner__footer_section img,
+.banner__footer_section .last_img {
+    /* display: inline-block; */
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-left: -12px;
+}
+
+.banner__footer_section .last_img {
+    border: 2px solid white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #13DeD2;
+    color: black;
+    font-weight: 800;
+}
+
+.banner_section .banner__footer_section p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
