@@ -3,6 +3,7 @@ import "./MainHeader.css";
 import logo from "../../assets/logo/GPT-3.svg";
 import Button from "../../Ui/button/Button";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const MainHeader = () => {
   const [open, setOpen] = useState(false);
   console.log("componetn rendered ", open);
@@ -39,7 +40,9 @@ const MainHeader = () => {
         </ul>
       </nav>
       <div className="main_header__button">
-        <Button active={false}>Sign In</Button>
+        <Link to={"/register"}>
+          <Button active={false}>Sign In</Button>
+        </Link>
         <Button active={true}>Sign Up</Button>
       </div>
       <label className="main_header__hamburger">

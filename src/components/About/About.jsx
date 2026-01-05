@@ -22,6 +22,8 @@ const About = () => {
   return (
     <section className="about_section layout">
       <div className="about_section_container">
+        <div className="blur_circle" />{" "}
+        <div className="blur_circle" />
         <header>
           <span>
             <span className="gradient_line" />
